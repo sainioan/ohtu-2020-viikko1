@@ -62,7 +62,7 @@ public class VarastoTest {
     public void stringWorks() {
         String s =  varasto.toString();
         String res = "saldo = " + varasto.getSaldo() + ", vielä tilaa " + varasto.paljonkoMahtuu();
-        assertEquals(res, "aaa");
+        assertEquals(res, s);
     }
 
     @Test
